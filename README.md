@@ -64,3 +64,38 @@ Submit the link to your fork and the five workflow-run links below with the rele
 In two or three sentences, explain why both keyword-test runs failed and identify the log evidence that shows your new rule worked.
 
 **Optional.** Describe one situation where a legitimate image could match a configured keyword. Explain what evidence you would check before treating it as suspicious.
+---
+
+## Student Improvements
+
+The following improvements were implemented
+and tested during the cybersecurity lab.
+
+### Custom Detection Rules
+
+- Added `confidential` as a suspicious keyword.
+- Added `classified` as a suspicious keyword.
+- Modified the hidden demo message to test both keywords.
+
+### Additional Improvements
+
+- Created a student_note.txt file.
+- Improved the GitHub Actions workflow name.
+- Improved README documentation.
+
+### Test Results
+
+| Test | Result |
+|---|---|
+| Initial clean image | Passed |
+| Suspicious image | Failed as expected |
+| Fixed image | Passed |
+| Confidential keyword detection | Detected |
+| Classified keyword detection | Detected |
+| Final clean image | Passed |
+
+## Conclusion
+
+StegoGuard demonstrates how automated image
+scanning and custom detection rules can help
+identify suspicious hidden data in image files.
