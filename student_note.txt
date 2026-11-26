@@ -1,0 +1,13 @@
+Name: Mashru Md Monower Hussain
+id: 24229556
+
+Project: StegoGuard Image Forensics
+
+I successfully added two new detection rules:
+confidential and classified.
+
+I also modified the hidden demo message and tested
+both keywords using GitHub Actions.
+
+The scanner successfully detected suspicious data,
+and the final clean scan passed.
