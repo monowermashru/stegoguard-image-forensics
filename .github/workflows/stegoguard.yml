@@ -1,4 +1,4 @@
-name: StegoGuard Image Forensics
+name: StegoGuard - Automated Image Security Scanner
 
 on:
   push:
